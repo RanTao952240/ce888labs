@@ -38,15 +38,26 @@ Use the example code for the bootstrap provided in ``bootstrap.py'' to do the fo
 - [ ] Are the standard deviations comparable? 
 
 ## Present the analysis
-
 - [ ] Write a very small text on what you did in your README.md. Include the generated plots as below 
 
-~~~markdown
+* Part one:
+        
+           1.using  the file of vehicles.csv and using dropna() to discard missing(nan) data
+ 
+           2.using seaborn function to produce histogram and scaterplot and using numpy function
+           to canculate Mean, Median, Var and Mad
+       
+Histogram
+![histogram](./partone_histogram.png?raw=true)
 
-![logo](./scaterplot.png?raw=true)
+Scaterplot
+![scaterplot](./partone_scaterplot.png?raw=true)
 
+* Part two:
+        
+	   1.because using bootstrap to predict the data, so deviding values into two rows and predict each boinds
+	   
 
-~~~
 
 - [ ] Write a very small text description of the analysis in overleaf, download the pdf and put in in github alongside the rest of your lab2 
 
