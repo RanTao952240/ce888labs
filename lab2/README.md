@@ -46,7 +46,11 @@ Use the example code for the bootstrap provided in ``bootstrap.py'' to do the fo
  
            2.using seaborn function to produce histogram and scaterplot and using numpy function
            to canculate Mean, Median, Var and Mad
-       
+           
+	   Mean: 30.48
+	   Median: 32.00
+	   Var: 36.83
+	   Mad: 4.00
 Histogram
 ![histogram](./partone_histogram.png?raw=true)
 
@@ -54,9 +58,19 @@ Scaterplot
 ![scaterplot](./partone_scaterplot.png?raw=true)
 
 * Part two:
-        
-	   1.because using bootstrap to predict the data, so deviding values into two rows and predict each boinds
+           Because using bootstrap to predict the data, so deviding values into two rows and predict each boinds
 	   
+	   For Current fleet:
+                             stander: 20.14
+			     lower bound: 5.80
+			     upper bound: 6.94
+	   For New fleet:
+                             stander: 30.48
+			     lower bound: 5.14
+			     upper bound: 6.92     
+	   
+	   
+	  
 
 
 - [ ] Write a very small text description of the analysis in overleaf, download the pdf and put in in github alongside the rest of your lab2 
