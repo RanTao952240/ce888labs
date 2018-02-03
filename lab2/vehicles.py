@@ -28,9 +28,9 @@ if __name__ == "__main__":
 	sns_plot.savefig("partone_scaterplot.pdf", bbox_inches = 'tight')
 
 	data = df.values.T[1]
-
+       
 	print(("Mean: %f")%(np.mean(data)))
-	print(("Median: %f")%(np.median(data)))
+        print(("Median: %f")%(np.median(data)))
 	print(("Var: %f")%(np.var(data)))
 	print(("Mad: %f")%(mad(data)))
 	
